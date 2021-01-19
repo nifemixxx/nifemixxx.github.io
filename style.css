@@ -1,0 +1,11 @@
+*{
+    text-align: right;
+}
+h1{
+    border: 5px solid brown;
+    text-align: center;
+}
+.good{
+    list-style: none;
+    display:inline-block;
+    
