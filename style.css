@@ -1,11 +1,26 @@
-*{
-    text-align: right;
-}
 h1{
-    border: 5px solid brown;
+    font-family:fantasy ;
+    font-size:3em;
+    border-bottom: 2px solid slateblue;
+    border-right: 2px solid slateblue;
+    width: 390px;
     text-align: center;
+    text-shadow:4px 4px 5px blue ;
+    box-shadow: 4px 4px 5px grey;
+    margin:0px;
+    margin-top:11px ;
 }
-.good{
-    list-style: none;
-    display:inline-block;
-    
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin: 11px;
+    transition: all 1s;
+}
+img:hover{
+    transform:scale(1.1)
+}
